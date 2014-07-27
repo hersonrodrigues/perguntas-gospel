@@ -1,0 +1,160 @@
+@import url("../fonts/iconsmoon.css");
+
+.panel-body {
+  padding: 15px;
+  margin: 15px;
+}
+table{
+  padding:15px;
+  border:0;
+}
+.table>thead>tr>th, .table>tbody>tr>th, .table>tfoot>tr>th, .table>thead>tr>td, .table>tbody>tr>td, .table>tfoot>tr>td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: none;
+}
+
+.dpy{
+  color:transparent;
+}
+
+.display{
+    color:#000;
+    -webkit-animation: exibir 7s; /* Chrome, Safari, Opera */
+    animation: exibir 7s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes exibir {
+    from {
+          color: transparent;
+          }
+    to {
+        color: #000;
+       }
+}
+
+/* Standard syntax */
+@keyframes exibir {
+    from {
+          color: transparent;
+          }
+    to {
+        color: #000;
+       }
+}
+
+.ocultar{
+    color:#transparent;
+    -webkit-animation: ocultar 8s; /* Chrome, Safari, Opera */
+    animation: ocultar 8s;
+}
+
+.blur{
+color: #000;
+		  text-shadow: 0 0 0px #010101;
+    -webkit-animation: blur 7s; /* Chrome, Safari, Opera */
+    animation: blur 7s;
+}
+
+input[type=radio]{
+width:2em;
+height:2em;
+}
+
+.version{
+	text-align:center;
+	color:#888;
+}
+
+.radio{
+padding-left: 25px;
+border-radius:15px;
+
+box-shadow:0px 4px 10px 0px #999;
+}
+
+table tr td{
+width: 50%;
+}
+
+.dpy{
+margin-left:20px;
+font-size:20px;
+line-height:35px;
+}
+
+#question{
+	font-size:40px;
+	margin-bottom:30px;
+	line-height:45px;
+}
+
+.mtmb10{
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.mr30{
+	margin-right:15px;
+}
+
+.mt10{
+	margin-top:10px;
+}
+
+#labelD,#labelC,#labelB,#labelA{
+pading:10px !important;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes ocultar {
+    from {
+          color: #000;
+    }
+    to {
+        color: transparent;
+       }
+}
+
+/* Standard syntax */
+@keyframes ocultar {
+    from {
+          color: #000;
+          }
+    to {
+        color: transparent;
+       }
+}
+
+@-webkit-keyframes blur {
+    0% {
+          color: transparent;
+		  text-shadow: 0 0 20px #010101;
+       }
+	90%{
+          color: transparent;
+		  text-shadow: 0 0 10px #010101;
+		}
+    100%{
+		color: black;
+		text-shadow: 0 0 0 #000;
+       }
+}
+
+@keyframes blur {
+    0% {
+          color: transparent;
+		  text-shadow: 0 0 20px #010101;
+       }
+	90%{
+          color: transparent;
+		  text-shadow: 0 0 10px #010101;
+		}
+    100%{
+		color: black;
+		text-shadow: 0 0 0 #000;
+       }
+}
+

@@ -1,0 +1,7 @@
+{
+"excluirParticipanteQuandoErrarPergunta":true,
+"excluirParticipanteQuandoAcertarPergunta":false,
+"manterParticipanteRespondendoEmCasoDeAcerto":false,
+"excluirPerguntaQuandoParticipanteAcertar":true,
+"excluirPerguntaQuandoParticipanteErrar":true
+}

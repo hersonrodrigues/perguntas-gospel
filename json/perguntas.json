@@ -1,0 +1,743 @@
+[
+{
+"titulo":"Qual destes não é filho de Adão e Eva?",
+"A":"Caim",
+"B":"Abel",
+"C":"Javé",
+"D":"Sete",
+"resposta":"C",
+"ref":"",
+"id":1,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Como é o nome do gigante derrotado por Davi?",
+"A":"Sansão",
+"B":"Golias",
+"C":"Zaqueu",
+"D":"Salomão",
+"resposta":"B",
+"ref":"",
+"id":2,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Qual destes não entrou na fornalha?",
+"A":"Sadraque",
+"B":"Mesaque",
+"C":"Abede-nego",
+"D":"Josué",
+"resposta":"D",
+"ref":"",
+"id":3,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Qual o nome do filho de Abraão e Sarah?",
+"A":"Esmael",
+"B":"Israel",
+"C":"Isaque",
+"D":"Jacó",
+"resposta":"C",
+"ref":"",
+"id":4,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Quantos anos o povo de Moisés andou pelo deserto?",
+"A":"7 Anos",
+"B":"40 Anos",
+"C":"27 Anos",
+"D":"30 Anos",
+"resposta":"B",
+"ref":"",
+"id":5,
+"nivel":3,
+"respondida":false
+},
+
+{
+"titulo":"Jonas foi enviado para qual cidade?",
+"A":"Ninive",
+"B":"Nindávua",
+"C":"Névua",
+"D":"Nivem",
+"resposta":"A",
+"ref":"",
+"id":6,
+"nivel":3,
+"respondida":false
+},
+
+{
+"titulo":"Quem matou o gigante Golias?",
+"A":"Daniel",
+"B":"Josué",
+"C":"Saul",
+"D":"Davi",
+"resposta":"D",
+"ref":"",
+"id":7,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Qual o nome do discípulo que traiu Jesus?",
+"A":"Pedro",
+"B":"João",
+"C":"Tiago",
+"D":"Judas",
+"resposta":"D",
+"ref":"",
+"id":8,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Sansão era inimigo de qual povo?",
+"A":"Filisteus",
+"B":"Galileus",
+"C":"Saduseus",
+"D":"Gabuzeus",
+"resposta":"A",
+"ref":"",
+"id":9,
+"nivel":3,
+"respondida":false
+},
+
+{
+"titulo":"Que discipulo negou a Jesus, por 3 vezes?",
+"A":"Judas",
+"B":"Pedro",
+"C":"Tiago",
+"D":"João",
+"resposta":"B",
+"ref":"",
+"id":10,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Qual profeta foi preso na ilha de Patmus?",
+"A":"Gedeon",
+"B":"Paulo",
+"C":"João",
+"D":"Silas",
+"resposta":"C",
+"ref":"",
+"id":11,
+"nivel":3,
+"respondida":false
+},
+
+{
+"titulo":"Quem batizou Jesus?",
+"A":"Batista",
+"B":"João Batista",
+"C":"Espírito Santo",
+"D":"Deus",
+"resposta":"B",
+"ref":"",
+"id":12,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Quem foi escravo e se tornou governador do Egito?",
+"A":"João",
+"B":"Josué",
+"C":"José",
+"D":"Kaleb",
+"resposta":"C",
+"ref":"",
+"id":13,
+"nivel":3,
+"respondida":false
+},
+
+{
+"titulo":"Que animal anunciou o fim do dilúvio?",
+"A":"Corvo",
+"B":"Coruja",
+"C":"Urubu",
+"D":"Pomba",
+"resposta":"D",
+"ref":"",
+"id":14,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Quem mergulhou sete vezes no rio jordão para ser curado de lepra?",
+"A":"Noé",
+"B":"Namã",
+"C":"Nemias",
+"D":"Nicodemos",
+"resposta":"B",
+"ref":"",
+"id":15,
+"nivel":3,
+"respondida":false
+},
+
+{
+"titulo":"Qual destas não foi mulher de Abraão?",
+"A":"Sarah",
+"B":"Quetura",
+"C":"Agar",
+"D":"Zinrã",
+"resposta":"D",
+"ref":"",
+"id":16,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Quantas pragas atormentaram o Egito?",
+"A":"7",
+"B":"5",
+"C":"10",
+"D":"3",
+"resposta":"C",
+"ref":"",
+"id":17,
+"nivel":3,
+"respondida":false
+},
+
+{
+"titulo":"Qual era a profissão de Jesus?",
+"A":"Pastor",
+"B":"Cobrador de Impostos",
+"C":"Pescador",
+"D":"Carpinteiro",
+"resposta":"D",
+"ref":"",
+"id":18,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Qual era a profissão de Jesus?",
+"A":"Pastor",
+"B":"Cobrador de Impostos",
+"C":"Pescador",
+"D":"Carpinteiro",
+"resposta":"D",
+"ref":"",
+"id":19,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Qual o nome do rei que criou a fornalha?",
+"A":"Herodes",
+"B":"Nabucodonossor",
+"C":"Salomão",
+"D":"Sodoma e Gomorra",
+"resposta":"B",
+"ref":"",
+"id":20,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Que objeto o povo criou para adorar, quando Moisés subiu o monte sinai?",
+"A":"Vaca de Ouro",
+"B":"Touro de Ouro",
+"C":"Cabra de Ouro",
+"D":"Bezerro de Ouro",
+"resposta":"B",
+"ref":"",
+"id":21,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Onde Paulo pregou seu primeiro sermão?",
+"A":"Beréia",
+"B":"Antioquia",
+"C":"Damasco",
+"D":"Éfeso",
+"resposta":"C",
+"ref":"Atos",
+"id":22,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Quantas pessoas entraram na Arca de Noé ?",
+"A":"8",
+"B":"5",
+"C":"6",
+"D":"9",
+"resposta":"A",
+"ref":"Gênesis 6:10 e 7:7",
+"id":23,
+"nivel":3,
+"respondida":false
+},
+
+{
+"titulo":"Mais de 40 homens fizeram um voto de não comer até que houvessem cometido um homicídio, quando isso ocorreu?",
+"A":"Quando queriam matar Jesus",
+"B":"Nunca aconteceu isso!",
+"C":"Quando queriam matar Estevão",
+"D":"Quando queriam matar Paulo",
+"resposta":"D",
+"ref":"At. 23:12-14",
+"id":25,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Qual o capítulo da Bíblia que fala sobre o dilúvio?",
+"A":"Gênesis 9",
+"B":"Êxodo 3",
+"C":"Gênesis 7",
+"D":"Mateus 5",
+"resposta":"C",
+"ref":"Gênesis 7",
+"id":26,
+"nivel":3,
+"respondida":false
+},
+
+{
+"titulo":"Quem foi vendido por 20 moedas de prata?",
+"A":"José",
+"B":"Judas",
+"C":"Jesus",
+"D":"Pedro",
+"resposta":"A",
+"ref":"Gênesis 37:28",
+"id":27,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Faraó comprou José para que este lhe...",
+"A":"Interpretasse o sonho",
+"B":"Adorasse",
+"C":"Aconselhasse",
+"D":"Alegrasse",
+"resposta":"A",
+"ref":"Gênesis 41:15",
+"id":28,
+"nivel":3,
+"respondida":false
+},
+
+{
+"titulo":"Quem foi o companheiro de Paulo na prisão quando se deu um grande terremoto?",
+"A":"Barnabé",
+"B":"Demas",
+"C":"Tiago",
+"D":"Silas",
+"resposta":"D",
+"ref":"Atos 16:25-26",
+"id":29,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Como Deus chamou a porção seca no ato da criação?",
+"A":"Mares",
+"B":"Terra",
+"C":"Montes",
+"D":"Lumináres",
+"resposta":"B",
+"ref":"Gênesis 1:10",
+"id":30,
+"nivel":2,
+"respondida":false
+},
+
+{
+"titulo":"Quem colocou fogo na seara dos filisteus com 300 raposas?",
+"A":"Otoniel",
+"B":"Sansão",
+"C":"Jefté",
+"D":"Gideão",
+"resposta":"B",
+"ref":"Juízes 15:6",
+"id":31,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Sara a mulher de Abraão, morreu em...",
+"A":"Hebrom (Quiriate-Arba)",
+"B":"Jerusalém",
+"C":"Jericó",
+"D":"Nazaré",
+"resposta":"A",
+"ref":"Gênesis 23:1,2",
+"id":32,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Com que idade morreu Sara mulher de Abraão?",
+"A":"120",
+"B":"127",
+"C":"130",
+"D":"140",
+"resposta":"B",
+"ref":"Gênesis 23:1",
+"id":33,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Além de mulher de Abraão, Sará também era sua...",
+"A":"Prima",
+"B":"Irmã por parte de seu pai",
+"C":"Irmã por parte de sua mãe",
+"D":"Irmã de Ló",
+"resposta":"B",
+"ref":"Gênesis 20:12",
+"id":34,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Com que idade Sara teve o filho Isaque?",
+"A":"85 Anos",
+"B":"90 Anos",
+"C":"95 Anos",
+"D":"100 Anos",
+"resposta":"B",
+"ref":"Gênesis 17:17",
+"id":35,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Qual foi o rei que abriu uma janela por ordem de um profeta?",
+"A":"Jeremias",
+"B":"Eliseu",
+"C":"Elias",
+"D":"Isaías",
+"resposta":"B",
+"ref":"II Reis 13:17",
+"id":37,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Em qual livro da bíblia fala sobre uma serpente marítima?",
+"A":"Amós",
+"B":"Jó",
+"C":"Atos",
+"D":"Gênesis",
+"resposta":"A",
+"ref":"Amós 9:3",
+"id":38,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Quando Jacó fugiu de Labão, quantos dias depois este ficou sabendo?",
+"A":"2",
+"B":"5",
+"C":"7",
+"D":"9",
+"resposta":"C",
+"ref":"Gênesis 31:22",
+"id":39,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Raquel morreu próximo a que cidade?",
+"A":"Jericó",
+"B":"Nazaré",
+"C":"Efrata",
+"D":"Maanaim",
+"resposta":"C",
+"ref":"Gênesis 35:19",
+"id":40,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Qual rei foi denominado 'querubim ungido'?",
+"A":"Zinri",
+"B":"Tiro",
+"C":"Abias",
+"D":"Joacaz",
+"resposta":"B",
+"ref":"Ezequiel 28:12-14",
+"id":41,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Quem fez bolos asmos para um anjo?",
+"A":"Zacarias",
+"B":"Abraão",
+"C":"Elias",
+"D":"Gideões",
+"resposta":"D",
+"ref":"Juízes",
+"id":42,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Onde Isaque levantou um altar ao Senhor, após Este haver lhe aparecido?",
+"A":"Preobote",
+"B":"Gerar",
+"C":"Eseque",
+"D":"Berseba",
+"resposta":"D",
+"ref":"Gênesis 26:23-25",
+"id":43,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Quais vidas foram salvas por um fio vermelho?",
+"A":"Dois espias e Dois israelitas",
+"B":"Balaque e Balaão",
+"C":"Arão e Hur",
+"D":"Josue e Kalebe",
+"resposta":"A",
+"ref":"Josue",
+"id":44,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Para onde Ló foi ao sair de Sodoma?",
+"A":"Zoar",
+"B":"Cades",
+"C":"Sur",
+"D":"Gerar",
+"resposta":"A",
+"ref":"Gênesis 19:22",
+"id":45,
+"nivel":5,
+"respondida":false
+},
+
+{
+"titulo":"Qual foi o último desejo de Jacó ?",
+"A":"Que ele não fosse sepultado no Egito",
+"B":"Nenhuma das alternativas",
+"C":"Que seus filhos fossem bem sucedidos",
+"D":"Que José fosse bom com seus irmãos",
+"resposta":"A",
+"ref":"Gênesis 47:29",
+"id":46,
+"nivel":5,
+"respondida":false
+},
+
+{
+"titulo":"Como se chamavam os habitantes de Siquem, quando lá chegou Abrão vindo de Harã?",
+"A":"Cananeus",
+"B":"Fenícios",
+"C":"Caldeus",
+"D":"Egípsios",
+"resposta":"A",
+"ref":"Gênesis 12:6",
+"id":47,
+"nivel":5,
+"respondida":false
+},
+
+{
+"titulo":"Qual mulher matou um homem enfiando uma estaca no crânio?",
+"A":"Débora",
+"B":"Ester",
+"C":"Jael",
+"D":"Jezabel",
+"resposta":"C",
+"ref":"Juízes 4:21",
+"id":48,
+"nivel":5,
+"respondida":false
+},
+
+{
+"titulo":"Quantos braços tinha o rio que saia do Éden ?",
+"A":"4",
+"B":"2",
+"C":"3",
+"D":"5",
+"resposta":"A",
+"ref":"Gênesis 2:10",
+"id":49,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"Quantos anos tinha Jacó quando se apresentou a Faraó ?",
+"A":"30",
+"B":"40",
+"C":"140",
+"D":"130",
+"resposta":"D",
+"ref":"",
+"id":50,
+"nivel":4,
+"respondida":false
+},
+
+{
+"titulo":"O que Deus mandou Noé construir para colocar os animais dentro?",
+"A":"Casa",
+"B":"Arca",
+"C":"Submarino",
+"D":"Avião",
+"resposta":"B",
+"ref":"",
+"id":51,
+"nivel":1,
+"respondida":false
+},
+
+{
+"titulo":"Qual o nome da mulher de Adão?",
+"A":"Maria",
+"B":"Eva",
+"C":"Serpente",
+"D":"Sara",
+"resposta":"B",
+"ref":"",
+"id":52,
+"nivel":1,
+"respondida":false
+},
+
+{
+"titulo":"O que a serpente deu para Eva comer?",
+"A":"Maça",
+"B":"Fruto Proibido",
+"C":"Tomate",
+"D":"Cereja",
+"resposta":"B",
+"ref":"",
+"id":53,
+"nivel":1,
+"respondida":false
+},
+
+{
+"titulo":"Quantos ladrões tinha ao lado de Jesus?",
+"A":"5",
+"B":"4",
+"C":"3",
+"D":"2",
+"resposta":"D",
+"ref":"",
+"id":54,
+"nivel":1,
+"respondida":false
+},
+
+{
+"titulo":"Quantos eram os dicípulos de Jesus?",
+"A":"10",
+"B":"12",
+"C":"14",
+"D":"26",
+"resposta":"B",
+"ref":"",
+"id":55,
+"nivel":1,
+"respondida":false
+},
+
+{
+"titulo":"O que representa o copo de Cristo na Santa Seia?",
+"A":"Queijo",
+"B":"Vinho",
+"C":"Cálice",
+"D":"Pão",
+"resposta":"D",
+"ref":"",
+"id":56,
+"nivel":1,
+"respondida":false
+},
+
+{
+"titulo":"O que representa o sangue de Cristo na Santa Seia?",
+"A":"Queijo",
+"B":"Vinho",
+"C":"Cálice",
+"D":"Pão",
+"resposta":"B",
+"ref":"",
+"id":57,
+"nivel":1,
+"respondida":false
+},
+
+{
+"titulo":"Jonas foi engulido por que animal?",
+"A":"Grande Peixe",
+"B":"Jacaré",
+"C":"Leão",
+"D":"Urso",
+"resposta":"A",
+"ref":"",
+"id":58,
+"nivel":1,
+"respondida":false
+},
+
+{
+"titulo":"Onde Zaqueu subiu para ver Jesus no meio da multidão?",
+"A":"Casa",
+"B":"Árvore",
+"C":"Rocha",
+"D":"Telhado da Igreja",
+"resposta":"B",
+"ref":"",
+"id":59,
+"nivel":1,
+"respondida":false
+}
+
+]

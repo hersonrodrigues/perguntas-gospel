@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Perguntas Biblicas
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">    
+	<script src="./js/jquery-2.1.1.min.js"></script>
+	<script src="./js/main.js"></script>
+  </head>
+  
+  <body>
+  
+	<div class="container" id="box-config" style="display:none;">
+		<div class="container">
+			<h3 id="config2" class="pull-right" style="margin-right:20px;"><i class="icon-cog" style="color:#cdcdcd;"></i></h3>
+		</div>
+
+		<div class="jumbotron">
+			<h2>Configurações do Aplicativo</h2>
+			<hr/>
+			<div class="panel panel-default" style="padding:20px;">
+				<label>
+					<input type="checkbox" name="excluirParticipanteQuandoErrarPergunta" id="excluirParticipanteQuandoErrarPergunta"/> 
+					Excluir participante quando ele errar a pergunta?
+					<pre class="mt10">Esta opcao elimina um participante assim que ele erra uma pergunta, com isso outros participantes que acertam continuam no jogo.</pre>
+				</label>
+			</div>
+			
+			<div class="panel panel-default" style="padding:20px;">
+				<label>
+					<input type="checkbox" 
+					       name="excluirParticipanteQuandoAcertarPergunta" 
+						   id="excluirParticipanteQuandoAcertarPergunta"/> Excluir participante quando acertar a pergunta?
+						   <pre class="mt10">Isto elimina o participante do jogo, apos ele acertar uma pergunta, dando oportunidade a outros participantes continuarem o jogo.</pre>
+				</label>
+			</div>
+			
+			<div class="panel panel-default" style="padding:20px;">
+				<label>
+					<input type="checkbox" 
+					       name="manterParticipanteRespondendoEmCasoDeAcerto" 
+						   id="manterParticipanteRespondendoEmCasoDeAcerto"/> 
+						   Manter o participante respondendo em caso de acerto?
+						   <pre class="mt10">Com isso o participante que acertar continua respondendo ate que ele erre uma pergunta.</pre>
+				</label>
+			</div>
+			
+			<div class="panel panel-default" style="padding:20px;">
+				<label>
+					<input type="checkbox" 
+					       name="excluirPerguntaQuandoParticipanteAcertar" 
+						   id="excluirPerguntaQuandoParticipanteAcertar"/> 
+						   Excluir a pergunta quando o participante acertar?
+						   <pre class="mt10">Elimina a pergunta assim que um participante acertar ela.</pre>
+				</label>
+			</div>
+			
+			<div class="panel panel-default" style="padding:20px;">
+				<label>
+					<input type="checkbox" 
+					       name="excluirPerguntaQuandoParticipanteErrar" 
+						   id="excluirPerguntaQuandoParticipanteErrar"/> 
+						   Excluir a pergunta quando o participante errar?
+						   <pre class="mt10">Elimina a pergunta do jogo, assim que um participante errar ela.</pre>
+				</label>
+			</div>
+
+			<div class="panel panel-default" style="padding:20px;">
+				<button class="btn btn-primary" id="json-config">JSON de Configurações do Sistema</button>
+				<br/>
+				<textarea id="r-json-config" rows="7" cols="80" style="display:none;">
+				
+				</textarea>
+				<button class="btn btn-success" id="json-config-save" style="display:none;">Carregar Dados</button>
+			</div>
+			
+			<div class="panel panel-default" style="padding:20px;">
+				<button class="btn btn-primary" id="json-participantes">JSON de Participantes</button>
+				<br/>
+				<textarea id="r-json-participantes" rows="20" cols="100" style="display:none;">
+				
+				</textarea>
+				<button class="btn btn-success" id="json-participantes-save" style="display:none;">Carregar Dados</button>
+			</div>
+			
+			<div class="panel panel-default" style="padding:20px;">
+				<button class="btn btn-primary" id="json-perguntas">JSON de Perguntas</button>
+				<br/>
+				<textarea id="r-json-perguntas" rows="20" cols="100" style="display:none;">
+				
+				</textarea>
+				<button class="btn btn-success" id="json-perguntas-save" style="display:none;">Carregar Dados</button>
+			</div>
+			
+		</div>
+
+	</div>
+	
+    <div class="container" id="box-question">
+	  <div class="container">
+		<h3 id="config" class="pull-right" style="margin-right:20px;"><i class="icon-cog" style="color:#cdcdcd;"></i></h3>
+	  	<h3>
+	  		<i class="icon-user"></i> Participante: <span id="login"></span>
+	  	</h3>
+	  </div>
+	  
+      <div class="jumbotron">
+		<div id="alert" class="alert alert-danger" style="display:none;"><h3>Mensagem...</h3></div>
+		
+		<div class="panel panel-default" style="margin-bottom: 10px;">
+			<h2>
+			  <i class="icon-bubbles2" style="margin-left:20px;margin-right:-10px;"></i>
+			  <span id="question" class="dpy display">Clique em Nova Pergunta, para iniciar...</span>
+			</h2>
+		</div>
+
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>
+                    <label class="radio">
+                      <input id="radioA" type="radio" name="radio" class="display">
+                      <span id="labelA" class="dpy display">Alternativa 1</span></div>
+                    </label>
+                  </td>
+                  <td>
+                    <label class="radio">
+                      <input id="radioB" type="radio" name="radio" class="display">
+                      <span id="labelB" class="dpy display">Alternativa 2</span>
+                    </label>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <label class="radio">
+                      <input id="radioC" type="radio" name="radio" class="display" >
+                      <span id="labelC" class="dpy display">Alternativa 3</span>
+                    </label>
+                  </td>
+                  <td>
+                    <label class="radio">
+                      <input id="radioD" type="radio" name="radio" class="display">
+                      <span id="labelD" class="dpy display">Alternativa 4</span>
+                    </label>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+			
+			<div class="container">
+				<button type="submit" class="btn btn-success" style="display:none;" id="show">
+				  <i class="icon-checkmark"></i> Revelar Resposta
+				</button>		
+				<button type="submit" class="btn btn-primary" id="newQuestion">
+				  <i class="icon-plus"></i> Nova Pergunta
+				</button>
+			</div>
+			
+			<hr class="mtmb10"/>
+			
+			<div class="container">
+				<label class="mr30"><i class="icon-info"></i> Informacoes:</label>
+				<i class="mr30" id="nivel">Nível da Questão: <i>0</i></i>
+				<i class="mr30" id="idq">Numero da Questão: <i>0</i></i>
+				<i class="mr30" id="nvp">Nível do Participante: <i>0</i></i>
+				<i class="mr30" id="ref">Referência da Questão: <i></i></i>            
+			</div>
+			
+			<hr class="mtmb10"/>
+			
+			<div class="container">
+				<label class="mr30"><i class="icon-stats"></i> Estatistica de Questoes:</label>
+				<i class="mr30" id="total-questoes">Total de Questoes: <i>0</i></i>
+				<i class="mr30" id="total-questoes-respondidas">Questoes Respondidas: <i>0</i></i>  
+				<i class="mr30" id="total-questoes-nao-respondidas">Questoes Nao Respondidas: <i>0</i></i>  				
+			</div>
+			<hr class="mtmb10"/>
+			<div class="container">
+				<label class="mr30"><i class="icon-users"></i> Estatistica de Participantes:</label>
+				<i class="mr30" id="total-participantes">Total de Participantes: <i>0</i></i>
+				<i class="mr30" id="total-participantes-ativos" title="">Participantes Ativos: <i>0</i></i>  
+				<i class="mr30" id="total-participantes-inativos" title="">Participantes Inativos: <i>0</i></i>  				
+			</div>
+			
+          </div>
+        </div>
+		<div class="container version"> 
+			<span id="version">Versao: 1.0.5</span>
+		</div>
+      </div>
+    </div>
+  </body>
+</html>
