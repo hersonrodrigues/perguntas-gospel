@@ -10,4 +10,4 @@ e adicionar a propriedade --disable-web-security ficando da seguinte forma:
 
 "C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security
 
-Apos isso basta iniciar o arquivo inde.html pelo navegador configurado.
+Apos isso basta iniciar o arquivo index.html pelo navegador configurado.
